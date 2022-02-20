@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4457490385527970333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4457490385527970331}
+  - component: {fileID: 4457490385527970330}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4457490385527970331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457490385527970333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0443748, y: -1.0333691, z: -7.2460895}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4457490385527970330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4457490385527970333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d53d80f951a6d34786756ae914e25d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sons:
+  - tag: BGM Menu
+    clip: {fileID: 8300000, guid: cd0e0654d1022f4439feb3100ec2b779, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: BGM 1
+    clip: {fileID: 8300000, guid: c5d03b2f4d7f6da43afe3135049898f7, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 1
+  - tag: BGM 2
+    clip: {fileID: 8300000, guid: 32780057af7150c44a5caf13c6d136ff, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: BGM 3
+    clip: {fileID: 8300000, guid: 9bc36a49a27528042b83c9868ed9c9c0, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: BGM 4
+    clip: {fileID: 8300000, guid: c883ce4ae32ed67499e2c6fb1d270034, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 1
+    playOnAwake: 0
+  - tag: aaahh
+    clip: {fileID: 8300000, guid: d82787a8d3d543e44a8e02761baa5cf5, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: aie 1
+    clip: {fileID: 8300000, guid: 2d1f774862e8c8e4fa70ffcf6dc1165d, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: aie 2
+    clip: {fileID: 8300000, guid: 3cf430a3082954548ac677a9e8a96c4b, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: aie 3
+    clip: {fileID: 8300000, guid: 1a4b7fc6264cce947ae986ad8e9b85b6, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: aie 4
+    clip: {fileID: 8300000, guid: 3515d745b7cde254f99a16363159abc0, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: applause
+    clip: {fileID: 8300000, guid: 826dfae0ef9822a4abfffc22a72bd547, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: "d\xE9ception"
+    clip: {fileID: 8300000, guid: 41aec49c2580b844a9e765177a58e3fe, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
+  - tag: hey
+    clip: {fileID: 8300000, guid: eb554b668df1d854cb3f0d1e231beae5, type: 3}
+    source: {fileID: 0}
+    volume: 0.5
+    loop: 0
+    playOnAwake: 0
